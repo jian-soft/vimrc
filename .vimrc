@@ -42,6 +42,9 @@ nnoremap <Leader>sw :copen 15<CR>  "打开quickfix窗口，高度15行(默认是
 nnoremap <Leader>sc :cclose<CR>  "关闭quickfix窗口
 nnoremap <Leader>sn :cnext<CR>  "quickfix下一个结果
 nnoremap <Leader>sp :cprevious<CR>  "quickfix上一个结果
+nnoremap <Leader>ss :vim //j **<CR>  "以当前匹配模式搜索
+nnoremap <Leader>so :colder<CR>  "旧一次的搜索结果
+nnoremap <Leader>se :cnewer<CR>  "新一次的搜索结果
 
 ""--nerdcommenter插件，以下是插件自带的命令映射
 "<leader>cc  "注释
@@ -52,3 +55,4 @@ nnoremap <Leader>sp :cprevious<CR>  "quickfix上一个结果
 
 ""--nerdtree插件
 nnoremap <leader>fl :NERDTreeToggle<CR>  "打开/关闭文件浏览窗口，选中文件后回车打开
+                                         "在nerdtree窗口中输入cd命令，则切换VIM的CWD到选中的目录
