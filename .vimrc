@@ -41,7 +41,7 @@ nnoremap <Leader>- <C-W>-  "减小窗口高度
 nnoremap <Leader>sw :copen 15<CR>  "打开quickfix窗口，高度15行(默认是10行)
 nnoremap <Leader>sc :cclose<CR>  "关闭quickfix窗口
 nnoremap <Leader>sn :cnext<CR>  "quickfix下一个结果
-nnoremap <Leader>sp :cprevious<CR>  "quickfix上一个结果
+nnoremap <Leader>sr :cprevious<CR>  "quickfix上一个结果
 nnoremap <Leader>ss :vim //j **<CR>  "以当前匹配模式搜索
 nnoremap <Leader>so :colder<CR>  "旧一次的搜索结果
 nnoremap <Leader>se :cnewer<CR>  "新一次的搜索结果
