@@ -56,3 +56,6 @@ nnoremap <Leader>se :cnewer<CR>  "新一次的搜索结果
 ""--nerdtree插件
 nnoremap <leader>fl :NERDTreeToggle<CR>  "打开/关闭文件浏览窗口，选中文件后回车打开
                                          "在nerdtree窗口中输入cd命令，则切换VIM的CWD到选中的目录
+
+""--快速替换：i表示input，s//表示以当前匹配模式搜索，输入要替换的单词，然后输入/gc<CR>
+nnoremap <Leader>si :% s//
